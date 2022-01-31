@@ -1,0 +1,53 @@
+/* Body – Use Calibri font */
+/* Calibri is not showing up? Keeps defaulting to Times New Roman. I'm using MacOS so I have a back-up of sans-serif. */
+body {
+  font-family: Calibri, sans-serif; 
+}
+
+/* Paragraphs – Use Calibri font */
+/* Calibri is not showing up? Keeps defaulting to Times New Roman. I'm using MacOS so I have a back-up of sans-serif. */
+p {
+  font-family: Calibri, sans-serif;
+}
+
+/* h1, h2 – Use Courier New font and color to be red */
+h1, h2 {
+  font-family: Courier New;
+  color: red;
+}
+
+/* Links - Not visited to be red */
+a:link {
+  color: red;
+}
+
+/* Links - Visited to be green */
+a:visited {
+  color: green;
+}
+
+/* Input Submit Button - Hover color to be red */
+input[type="Submit"]:hover {background-color: red;}
+
+/* Input Submit Button -  Active color to be green */
+input[type="Submit"]:active {background-color: green;}
+
+/* Unorder lists - make items square */
+ul {
+  list-style-type: square;
+}
+
+/* Ordered lists - lower-roman */
+ol {
+  list-style-type: lower-roman;
+}
+
+/* Tables - Even row background color to be light gray */
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+/* Tables - Hover over row background color to be light blue (any row) */
+tr:hover {
+  background-color: lightblue;
+}

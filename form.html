@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/style.css" type='text/css'> <!-- Link to use the External CSS -->
+  <a href="index.html#Top">Return to Introductory Page</a> <!-- A link to the Introductory Page -->
+</head>
+
+<body>
+  <h2>Input</h2> <!-- Headings size 2 -->
+  <h4>Log</h4> <!-- Headings size 4 -->
+  <form>
+    Text Input: <input type="text" name="text"> <!-- Text Input -->
+    Password: <input type="password" name="pwd"> <br> <!-- Password Input-->
+    <hr>
+    <table>
+      <tr>
+        <td>
+          Bounty:<br> <!-- Radio buttons -->
+          <input type="radio" name="bnty" value="warm" checked>Warm<br>
+          <input type="radio" name="bnty" value="cold" checked>Cold<br>
+          <input type="radio" name="bnty" value="both" checked>Both<br>
+        </td>
+        <td>
+          Allegiance:<br> <!-- Checkbox -->
+          <input type="checkbox" name="imperial" value="ally">Imperial<br>
+          <input type="checkbox" name="rebels" value="enemy">Rebellion<br>
+          <input type="checkbox" name="republic" value="gone">Republic<br>
+        </td>
+        <td>
+          Payment:<br> <!-- A multiple select box -->
+          <select name ="Payment">
+            <option value="credits">Credits</option>
+            <option value="beskar">Beskar</option>
+            <option value="ammo">Ammo</option>
+            <option value="intel">Intel</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    Date: <input type="date" name="dob"/><br>
+    <hr>
+    <input type="submit" value="Submit"> <!-- Submit button -->
+  </form>
+</body>
+</html>
